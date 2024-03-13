@@ -1,0 +1,100 @@
+(footprint "Mounting solder M3 DIN6923"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e146f402-2d56-44f5-b0a9-164a402c3142")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Mounting solder M3 DIN6923"
+		(at 0.25 6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "20e9e5e2-d058-4cff-94d8-8d4cbd3ea86d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11cb8886-a795-41cd-b901-7077187c4fe1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcac357f-9140-44d1-98d7-072f4c00c98a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d51bc4ac-704e-4e1e-acd0-646720b0fb3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 4 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "525d3a3f-cf02-4d69-a6ab-a8c2a9ea53da")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2a955899-bf41-415c-a5a4-fb987186fd4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 7.8 7.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "0870f007-a633-4883-922f-f7294c379715")
+	)
+)

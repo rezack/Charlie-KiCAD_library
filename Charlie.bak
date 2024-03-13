@@ -2479,6 +2479,87 @@
 			)
 		)
 	)
+	(symbol "Mounting_nut_M3_DIN6923"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Mounting_nut_M3_DIN6923_0_1"
+			(circle
+				(center 0 0)
+				(radius 1.4199)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Mounting_nut_M3_DIN6923_1_1"
+			(pin input line
+				(at 0 0 0)
+				(length 2.54)
+				(name "Pad"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "PESD5V0U2BT,215"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2966,7 +3047,7 @@
 		(symbol "SW_Push_Double_LED_0_0"
 			(polyline
 				(pts
-					(xy -2.54 0) (xy 2.54 0)
+					(xy -3.81 0) (xy 3.81 0)
 				)
 				(stroke
 					(width 0)
@@ -3051,18 +3132,7 @@
 		)
 		(symbol "SW_Push_Double_LED_0_1"
 			(circle
-				(center -2.032 2.54)
-				(radius 0.508)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -2.032 5.08)
+				(center -1.905 5.08)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -3074,7 +3144,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 3.81) (xy 0 8.128)
+					(xy -3.81 2.54) (xy -3.175 2.54)
 				)
 				(stroke
 					(width 0)
@@ -3086,7 +3156,19 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 3.81) (xy -2.54 3.81)
+					(xy -3.175 2.54) (xy -3.175 4.953)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 6.35) (xy 0 8.128)
 				)
 				(stroke
 					(width 0)
@@ -3108,9 +3190,22 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 2.032 2.54)
-				(radius 0.508)
+			(polyline
+				(pts
+					(xy 3.175 2.54) (xy 3.175 4.953)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 2.54) (xy 3.81 2.54)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -3120,7 +3215,7 @@
 				)
 			)
 			(circle
-				(center 2.032 5.08)
+				(center 1.905 5.08)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -3128,11 +3223,24 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+		)
+		(symbol "SW_Push_Double_LED_1_1"
+			(rectangle
+				(start -3.81 8.89)
+				(end 3.81 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 			(pin passive line
-				(at -5.08 5.08 0)
-				(length 2.54)
+				(at -6.35 5.08 0)
+				(length 3.81)
 				(name "1"
 					(effects
 						(font
@@ -3148,21 +3256,8 @@
 					)
 				)
 			)
-		)
-		(symbol "SW_Push_Double_LED_1_1"
-			(rectangle
-				(start -3.175 8.89)
-				(end 3.175 -2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(pin passive line
-				(at -5.08 2.54 0)
+				(at -6.35 2.54 0)
 				(length 2.54)
 				(name "2"
 					(effects
@@ -3180,8 +3275,8 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 5.08 180)
-				(length 2.54)
+				(at 6.35 5.08 180)
+				(length 3.81)
 				(name "3"
 					(effects
 						(font
@@ -3198,7 +3293,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 2.54 180)
+				(at 6.35 2.54 180)
 				(length 2.54)
 				(name "4"
 					(effects
@@ -3216,7 +3311,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 0 0)
+				(at -6.35 0 0)
 				(length 2.54)
 				(name "L1"
 					(effects
@@ -3234,7 +3329,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
+				(at 6.35 0 180)
 				(length 2.54)
 				(name "L2"
 					(effects
