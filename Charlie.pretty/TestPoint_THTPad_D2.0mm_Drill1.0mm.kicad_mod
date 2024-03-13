@@ -86,9 +86,9 @@
 		(layer "F.CrtYd")
 		(uuid "fb6ad98f-13d7-4593-b78e-e2e5a7be4774")
 	)
-	(fp_text user "${REFERENCE}"
+	(fp_text user "${VALUE}"
 		(at 0 3.5 0)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "3b9a24ad-d8a8-4e1e-9972-62113e3ec411")
 		(effects
 			(font
