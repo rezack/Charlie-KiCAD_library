@@ -1,0 +1,187 @@
+(footprint "am1ls-1212sh30lpz"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "http://assets.tracopower.com/TMR1SM/documents/tmr1sm-datasheet.pdf")
+	(tags "DCDC SMD TRACO TMR-1SM")
+	(property "Reference" "REF**"
+		(at -1.016 0 -90)
+		(layer "F.SilkS")
+		(uuid "724c47a2-6101-48d9-ae39-80f53870734d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "am1ls-1212sh30lpz"
+		(at 6.477 7.366 180)
+		(layer "F.Fab")
+		(uuid "65472559-01f8-4ce0-9a77-68bc57bf5be7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -20.12 20.575 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "836c222a-1795-42e3-9776-1b3ca44a276a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -20.12 20.575 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "176cfdaf-d97a-449d-8bf0-a449eb708cf0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -20.12 20.575 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e88fe208-50ec-446c-a4fd-8a9c51f41f1b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.127 6.223)
+		(end -0.127 -4.318)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3de8a81f-79c4-4380-9bf1-07f6f626a635")
+	)
+	(fp_line
+		(start 12.827 4.318)
+		(end 12.827 -4.318)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3fa4eefd-5735-4b90-b812-db5e8e84b6f8")
+	)
+	(fp_rect
+		(start 0 -4.25)
+		(end 12.7 4.25)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "67164346-978c-4ff7-9233-0a26f31bcf5a")
+	)
+	(fp_line
+		(start -0.381 -6.477)
+		(end 13.081 -6.477)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a23f0a28-567b-4689-9983-af64d041e49a")
+	)
+	(fp_line
+		(start -0.381 6.477)
+		(end -0.381 -6.477)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "23d60b0e-3808-4a98-b55b-790d21964909")
+	)
+	(fp_line
+		(start 13.081 -6.477)
+		(end 13.081 6.477)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1ef3ca2f-a9b2-4009-8001-075518257194")
+	)
+	(fp_line
+		(start 13.081 6.477)
+		(end -0.381 6.477)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6d15e5a1-244e-4635-aae3-4721c7ccddd4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.35 0 0)
+		(layer "F.Fab")
+		(uuid "fa066df0-2061-4b2a-8e3e-aff7ba445e16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 2.54 5.115 90)
+		(size 2.47 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15625)
+		(uuid "7ef50ab8-cc17-4c6d-8741-8ac0c23d0704")
+	)
+	(pad "2" smd roundrect
+		(at 5.08 5.115 90)
+		(size 2.47 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15625)
+		(uuid "f0ad9a1a-32a5-4209-9266-b70cb3da7fd2")
+	)
+	(pad "4" smd roundrect
+		(at 10.16 5.115 90)
+		(size 2.47 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15625)
+		(uuid "fac62379-6581-4b89-a813-3126faf096d2")
+	)
+	(pad "5" smd roundrect
+		(at 10.16 -5.115 90)
+		(size 2.47 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15625)
+		(uuid "a91bf3b4-52dd-4496-9aa2-cd0d18e4c62d")
+	)
+	(pad "8" smd roundrect
+		(at 2.54 -5.115 90)
+		(size 2.47 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15625)
+		(uuid "f5f21ffa-bcc1-44c3-90ce-b145b5b2b995")
+	)
+)
