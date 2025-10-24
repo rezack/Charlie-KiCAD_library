@@ -529,7 +529,7 @@
 		(uuid "ccc01f9f-5441-4bbe-8c0f-dd311cd8f457")
 		(members "34f3358c-224e-4f58-ba7e-195bcab779cb" "e39dd736-bf45-423f-8642-0c493a95f177")
 	)
-	(model "D:/Clip 102071.step"
+	(model "${CHARLIE}/Charlie.pretty/Clip 102071.step"
 		(offset
 			(xyz -0.6 0 0)
 		)
@@ -540,7 +540,7 @@
 			(xyz 90 180 -90)
 		)
 	)
-	(model "D:/Clip 102071.step"
+	(model "${CHARLIE}/Charlie.pretty/Clip 102071.step"
 		(offset
 			(xyz 105.6 0 0)
 		)

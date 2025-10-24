@@ -1,0 +1,130 @@
+(footprint "R75PF2330AAM0K"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "C, Disc series, Radial, pin pitch=10.00mm, , diameter*width=10.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
+	(tags "C Disc series Radial pin pitch 10.00mm  diameter 10.5mm width 5.0mm Capacitor")
+	(property "Reference" "REF**"
+		(at 0 -3.4 0)
+		(layer "F.SilkS")
+		(uuid "f37a58b9-f231-4040-a383-776d120bf29e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_Bax_L13mm_W5mm_leg10mm"
+		(at 0 3.4 0)
+		(layer "F.Fab")
+		(uuid "e1ffb70b-d222-46a4-bfc7-8a34fa1d6b36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba39ef0f-5d53-4507-a835-fbef2830ccb9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90fbac9f-dbd8-44f0-8e78-75a3a859d056")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "839881c2-33b4-4ae1-b737-fc48c0f78009")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.5 -2.5)
+		(end 6.5 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1e8dcc7d-80b4-49be-a877-a068791ca8c7")
+	)
+	(fp_rect
+		(start -6.6 -2.6)
+		(end 6.6 2.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8031fb3c-3a91-41e6-8859-05ab9f0e5710")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.4 0)
+		(layer "F.Fab")
+		(uuid "0cfd97f1-8e63-40b9-a649-c4fc59e8727a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ae5a7a7b-bbd9-45c3-9dbd-929ba2181875")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "13799927-3c8d-4344-8741-bdda20283a3f")
+	)
+	(model "${CHARLIE}/Charlie.pretty/R75PF2330AAM0K.stp"
+		(offset
+			(xyz -6.5 2.6 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

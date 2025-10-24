@@ -1,0 +1,141 @@
+(footprint "pc-g2.1-pcb"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Barrel Jack, 2.5mm ID, 5.5mm OD, 24V, 5A, switch, https://www.cui.com/product/resource/pj-079bh.pdf ")
+	(tags "barrel jack cui dc power")
+	(property "Reference" "REF**"
+		(at -1.1 -6.8 0)
+		(layer "F.SilkS")
+		(uuid "72da4b17-5de2-4ece-841d-01c1d4395144")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "Nigini pc-g2.1-pcb"
+		(at 0 7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "36dae584-1051-4418-8008-cc15669ef787")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2992ad6-9c20-4808-8601-e087850e3381")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e3e43dc-011f-41d4-8554-548e7187382d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd2c27c1-c231-410b-9ab1-812bcf0109da")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 4.3 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "da761c5d-8d90-471e-b10e-f5e2665c8f38")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "120e2663-22ad-404b-8ed4-98a8d8d90986")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0743211b-da56-4c90-80da-fe552eb75b3b")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.135)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 3.6 0 180)
+		(size 1.8 3.7)
+		(drill oval 0.8 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "300b71ee-0f46-41b3-9b45-f4fa6cbb087d")
+	)
+	(pad "2" thru_hole oval
+		(at -3.6 0 180)
+		(size 1.8 3.7)
+		(drill oval 0.8 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f5b28878-7113-49f1-9242-fef6dc72d0fe")
+	)
+	(pad "3" thru_hole roundrect
+		(at 0 -3.9 270)
+		(size 1.8 4.5)
+		(drill oval 0.8 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1388888889)
+		(uuid "1744f85c-ad57-4a90-8296-57d799b0a3cf")
+	)
+	(model "${CHARLIE}/Charlie.pretty/pc-g2.1-pcb.stp"
+		(offset
+			(xyz 0 0 7.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
+)

@@ -252,13 +252,12 @@
 		(remove_unused_layers no)
 		(uuid "6f6fef7b-01ac-4f86-8f21-e1da5e64ea76")
 	)
-	(pad "2" thru_hole roundrect
+	(pad "2" thru_hole circle
 		(at 54.86 0)
 		(size 2.2 2.2)
 		(drill 1.19)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.1136363636)
 		(uuid "fc74ec45-c2ed-400c-b64e-d6e695af324d")
 	)
 	(model "AA-LIB-1028.stp"

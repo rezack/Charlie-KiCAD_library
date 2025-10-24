@@ -1,0 +1,256 @@
+(footprint "SBR1A400P1-7"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SBR1A400P1-7-1")
+	(tags "Schottky Diode")
+	(property "Reference" "D**"
+		(at 1 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "0d4496d6-b886-4863-9b1c-9a7def74ca23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SBR1A400P17"
+		(at -0.2 2.8 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "df45fac0-da3b-4f0b-a82e-562ebc664ac1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ec65662-add4-4175-bbfe-c5736fd8cf4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f654f083-6a99-40a2-bf0f-17b364cb841c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5be1560-2de5-4923-bc17-3e4243bff5e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.4 0)
+		(end -2.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb8504e4-7ee9-4613-947a-c5e15bb1a8a4")
+	)
+	(fp_line
+		(start -2.3 0)
+		(end -2.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8fc5a7ae-1263-45f2-ab5e-0fd87a880cce")
+	)
+	(fp_line
+		(start -0.5 -1.25)
+		(end 2.5 -1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ff57488a-ff05-4088-86a6-be9efc2dff46")
+	)
+	(fp_line
+		(start 2.5 -1.25)
+		(end 2.5 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c9e206a0-8b0d-4214-acbf-797a749efde6")
+	)
+	(fp_line
+		(start 2.5 1.25)
+		(end -0.5 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0294fa0c-78f0-4875-adc4-b541b3ffb6bc")
+	)
+	(fp_arc
+		(start -2.4 0)
+		(mid -2.35 -0.05)
+		(end -2.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efed7c5f-4fb5-4d43-8962-e1965259c4a1")
+	)
+	(fp_arc
+		(start -2.3 0)
+		(mid -2.35 0.05)
+		(end -2.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1242a4a5-11e6-40c2-99bf-b0d1bcf39b08")
+	)
+	(fp_line
+		(start -3.4 -1.89)
+		(end 3.175 -1.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1e087fa-4cf7-486e-b9c3-9be1043af09b")
+	)
+	(fp_line
+		(start -3.4 1.89)
+		(end -3.4 -1.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "716dc7c2-cfc4-43a7-aee4-b4d8ed9c58c7")
+	)
+	(fp_line
+		(start 3.175 -1.89)
+		(end 3.175 1.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b0028415-fbda-4dda-afa6-808867aa26c8")
+	)
+	(fp_line
+		(start 3.175 1.89)
+		(end -3.4 1.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "46f6dce2-2f84-4b20-b275-fbb4c54cc565")
+	)
+	(fp_line
+		(start -1.4 -0.89)
+		(end 1.4 -0.89)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8afc5b41-f2b9-44c3-bcf5-cc3df6c1dcb7")
+	)
+	(fp_line
+		(start -1.4 0.89)
+		(end -1.4 -0.89)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8bcdb2d8-afdf-4145-8c1b-609b49646e79")
+	)
+	(fp_line
+		(start 1.4 -0.89)
+		(end 1.4 0.89)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca036182-8f54-405a-b11f-20524592eb76")
+	)
+	(fp_line
+		(start 1.4 0.89)
+		(end -1.4 0.89)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69ba6cc6-5094-4fbf-818f-af1337e89e68")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.113 0 0)
+		(layer "F.Fab")
+		(uuid "677f0825-602e-4057-9f39-12ca40df067b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0.975 0 90)
+		(size 1.5 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(uuid "8d95801d-8d54-46de-8d64-ce2b308cc24d")
+	)
+	(pad "2" smd roundrect
+		(at -1.4 0)
+		(size 1.05 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2380952381)
+		(uuid "0f4cfeef-b8d5-4284-b60d-69f46fe12776")
+	)
+	(model "SBR1A400P1-7.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

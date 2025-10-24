@@ -1,0 +1,162 @@
+(footprint "SiC CPW3-1700S010"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0a1bb0dd-cb97-4ea0-a55a-f3d5c0dec163")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SiC CPW3-1700S010"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "14a3264b-9916-452d-a755-58d1d55fefc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42d287a4-dbba-41b0-a901-b8ea89ce834f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d47125c-e73e-4396-9be9-12cae6baa6e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c03f4fb2-2908-40bc-ae96-04dbaea2d693")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2 -7)
+		(end 2 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "567c7a59-fb53-4a79-9144-c0ecee08b6bf")
+	)
+	(fp_rect
+		(start -2 -7)
+		(end 2 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5ec4652b-c657-419f-b332-7361fdb3d8f7")
+	)
+	(fp_rect
+		(start -2 3)
+		(end 2 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "613216b5-0c03-4661-978a-f69f6cf1c46e")
+	)
+	(fp_rect
+		(start -2.25 -7.25)
+		(end 2.25 7.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "449919b2-3e07-4d9a-a4f0-210dd28ff9aa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1eca62e3-3a8d-43cf-8ea2-2b46bdcb0eea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 4 2.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.0656167979)
+		(uuid "bf5505d5-087b-4eab-b06d-b6f91cd6288b")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -5)
+		(size 4 4)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "6405f128-a6dc-47d6-9730-e03f583a5cb5")
+	)
+	(pad "2" thru_hole circle
+		(at 0 5)
+		(size 4 4)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "593d1ad9-497b-4e60-987b-17c7bf5a7bc4")
+	)
+	(model "${CHARLIE}/Charlie.pretty/SiC-CPW3-1700S010.stp"
+		(offset
+			(xyz 0 0 -0.05)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
