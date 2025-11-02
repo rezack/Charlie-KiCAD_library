@@ -1,0 +1,167 @@
+(footprint "R_Radial_Power_L13.0mm_W9.5mm_P4.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor, Radial_Power series, Radial, pin pitch=5.00mm, 7W, length*width=13.0*9.0mm^2, https://www.vishay.com/docs/30218/cpcp-cpcf.pdf")
+	(tags "Resistor Radial_Power series Radial pin pitch 5.00mm 7W length 13.0mm width 9.0mm")
+	(property "Reference" "REF**"
+		(at 2.5 -5.75 0)
+		(layer "F.SilkS")
+		(uuid "a6e83ab0-891e-4e36-822d-d3a7902fba46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_Radial_Power_L13.0mm_W9.5mm_P4.5mm"
+		(at 2.5 5.75 0)
+		(layer "F.Fab")
+		(uuid "c64efc26-8981-4152-b47b-69ecb95cdf09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08cc3300-79eb-4054-9038-4513db97b6db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73043365-4b0b-43ac-9411-5021da9a27b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3 -4.75)
+		(end -3 4.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c2a3592-a649-42bd-bcd2-2a6ed7e17225")
+	)
+	(fp_line
+		(start 8 -4.75)
+		(end 8 4.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc163f2b-9062-4bca-b6cf-c0efe928d981")
+	)
+	(fp_rect
+		(start -4 -4.75)
+		(end 9 4.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fbc948b5-20ea-4cf2-927c-c68f2b0b4f28")
+	)
+	(fp_rect
+		(start -4.25 -5)
+		(end 9.25 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8aee95d8-2023-41f7-bb6d-204b5eec8032")
+	)
+	(fp_line
+		(start -3 -4.5)
+		(end -3 4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f2711d4-d8f6-4614-8d95-9b99b50a5499")
+	)
+	(fp_line
+		(start 8 -4.5)
+		(end 8 4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b0bda55-ba1f-4b23-be2a-f0a25517b68d")
+	)
+	(fp_rect
+		(start -4 -4.75)
+		(end 9 4.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4b032cf4-66f8-4337-aa6d-51661c1c492f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 0 0)
+		(layer "F.Fab")
+		(uuid "6a2204f3-5956-4102-ac8e-b461a2201801")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0.25 0)
+		(size 2.4 2.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a4c38312-44f7-4fd9-8e43-724db4c3fd0c")
+	)
+	(pad "2" thru_hole circle
+		(at 4.75 0)
+		(size 2.4 2.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de03982a-1cae-4a6d-ac47-7c6fa69146f3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Radial_Power_L13.0mm_W9.0mm_P5.00mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

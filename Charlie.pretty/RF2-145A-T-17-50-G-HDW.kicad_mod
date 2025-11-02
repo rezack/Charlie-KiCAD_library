@@ -1,7 +1,7 @@
 (footprint "RF2-145A-T-17-50-G-HDW"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Connector SMA, 0Hz to 20GHz, 50Ohm, Edge Mount (http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf)")
 	(tags "SMA Straight Samtec Edge Mount")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
-		(at 0 0 90)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f3786365-d5ed-44a0-be12-a8d6cace3a8b")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -138,8 +125,8 @@
 		(uuid "9a89adc4-8344-4745-aacc-8e1e595d5e7b")
 	)
 	(fp_line
-		(start 2.1 -4.1)
-		(end 2.1 4.1)
+		(start 2.1 -4)
+		(end 2.1 4)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -148,8 +135,8 @@
 		(uuid "3fa63ad1-6418-4623-97ae-38e1e6e03ccb")
 	)
 	(fp_line
-		(start -2.6 4)
-		(end -2.6 -4)
+		(start -3 4)
+		(end -3 -4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -159,7 +146,7 @@
 	)
 	(fp_line
 		(start 2.6 -4)
-		(end -2.6 -4)
+		(end -3 -4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -199,7 +186,7 @@
 	)
 	(fp_line
 		(start 2.6 4)
-		(end -2.6 4)
+		(end -3 4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -228,8 +215,8 @@
 		(uuid "bbc102d7-4b78-451e-9ca1-b2641b7edd35")
 	)
 	(fp_line
-		(start -2.6 4)
-		(end -2.6 -4)
+		(start -3 4)
+		(end -3 -4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -239,7 +226,7 @@
 	)
 	(fp_line
 		(start 2.6 -4)
-		(end -2.6 -4)
+		(end -3 -4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -279,7 +266,7 @@
 	)
 	(fp_line
 		(start 2.6 4)
-		(end -2.6 4)
+		(end -3 4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -441,40 +428,41 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.2 0 90)
-		(size 1.27 4.6)
+		(at -0.4 0 90)
+		(size 1.5 5)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1968503937)
 		(uuid "da42a6dc-b25a-4b06-90b9-18421a445d40")
 	)
 	(pad "2" smd roundrect
-		(at -0.25 -2.825 90)
-		(size 1.35 4.7)
+		(at -0.4 -2.825 90)
+		(size 1.5 5)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1851851852)
 		(uuid "34343da3-e75a-42a7-829f-0fbb10d93d55")
 	)
 	(pad "2" smd roundrect
-		(at -0.25 -2.825 90)
-		(size 1.35 4.7)
+		(at -0.4 -2.825 90)
+		(size 1.5 5)
 		(layers "B.Cu" "B.Mask")
 		(roundrect_rratio 0.1851851852)
 		(uuid "12d96aed-45ce-490e-8194-62b7dc467432")
 	)
 	(pad "2" smd roundrect
-		(at -0.25 2.825 90)
-		(size 1.35 4.7)
+		(at -0.4 2.825 90)
+		(size 1.5 5)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1851851852)
 		(uuid "b9d9dd5e-b422-4225-b2b0-84e13b78fe37")
 	)
 	(pad "2" smd roundrect
-		(at -0.25 2.825 90)
-		(size 1.35 4.7)
+		(at -0.4 2.825 90)
+		(size 1.5 5)
 		(layers "B.Cu" "B.Mask")
 		(roundrect_rratio 0.1851851852)
 		(uuid "c28c778c-7cfe-49b1-8bdc-9dfd6454e666")
 	)
+	(embedded_fonts no)
 	(model "${CHARLIE}/Charlie.pretty/RF2-145A-T-17-50-G-HDW.stp"
 		(offset
 			(xyz 14.5 0 0.5)
