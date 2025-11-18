@@ -2,9 +2,6 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-<<<<<<< HEAD
-	(symbol "B3FS"
-=======
 	(symbol "AM1LS-NJZ"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2858,54 +2855,6 @@
 			)
 		)
 	)
-	(symbol "Mounting_nut_M3_DIN6923"
->>>>>>> 54da7ba0160514b2df3990a7b9a21758ca0c5f49
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "B3FS_0_1"
 			(rectangle
 				(start -3.175 3.81)
@@ -3042,8 +2991,6 @@
 			)
 		)
 	)
-<<<<<<< HEAD
-=======
 	(symbol "TC7SET00F,LJ_CT"
 		(exclude_from_sim no)
 		(in_bom yes)
