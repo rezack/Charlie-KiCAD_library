@@ -86,22 +86,22 @@
 			)
 		)
 	)
-	(pad "2" thru_hole circle
-		(at 5 0)
-		(size 1.425 1.425)
-		(drill 0.95)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "39168e1c-7073-4424-b1e2-c8b2e2a86ffb")
-	)
-	(pad "e" thru_hole roundrect
+	(pad "1" thru_hole roundrect
 		(at 0 0)
-		(size 1.425 1.425)
+		(size 2 2)
 		(drill 0.95)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1754385965)
 		(uuid "98db9d67-7f25-47cc-9257-caf05a7848ba")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 2 2)
+		(drill 0.95)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "39168e1c-7073-4424-b1e2-c8b2e2a86ffb")
 	)
 	(embedded_fonts no)
 	(model "AHCR-S04R0SA127Q.stp"
