@@ -1,0 +1,242 @@
+(footprint "TC33X2503E"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TC33X-2_1")
+	(tags "Variable Resistor")
+	(property "Reference" "VR**"
+		(at 0 0.168 0)
+		(layer "F.SilkS")
+		(uuid "b5d1a0f7-3f9b-462b-8b75-5bae62d0542b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TC33X2503E"
+		(at 0 0.168 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a6baa400-0352-40ec-9470-1aebed10a7cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9705044e-1c54-4292-b7d4-416afeba8bd6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8045e27-b8a4-4615-995d-8a854e44bfd0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.8 -1.9)
+		(end -1.8 1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b86ff7a4-44f0-4cf7-b57c-4041e0953180")
+	)
+	(fp_line
+		(start -1.052 2.625)
+		(end -1.052 2.625)
+		(stroke
+			(width 0.022)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "265671ed-213d-4947-ba7c-cc416bfeb832")
+	)
+	(fp_line
+		(start -1.03 2.625)
+		(end -1.03 2.625)
+		(stroke
+			(width 0.022)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc12c1b3-f11a-420a-878b-e08ad303bb15")
+	)
+	(fp_line
+		(start 1.8 1.9)
+		(end 1.8 -1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c9361e0-425b-44a3-a68a-cb063f69aef9")
+	)
+	(fp_arc
+		(start -1.052 2.625)
+		(mid -1.041 2.614)
+		(end -1.03 2.625)
+		(stroke
+			(width 0.022)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d8e6c09-b7cd-4dd7-b562-29e41a45e2e1")
+	)
+	(fp_arc
+		(start -1.03 2.625)
+		(mid -1.041 2.636)
+		(end -1.052 2.625)
+		(stroke
+			(width 0.022)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0217f142-5169-4961-895c-6b8979ee6347")
+	)
+	(fp_line
+		(start -2.8 -3.3)
+		(end 2.8 -3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e333aa97-49f8-4e30-8d2d-ab750821ca2c")
+	)
+	(fp_line
+		(start -2.8 3.636)
+		(end -2.8 -3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9731d294-9973-4157-b991-8ea651223954")
+	)
+	(fp_line
+		(start 2.8 -3.3)
+		(end 2.8 3.636)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ed9cd0fe-ad1b-4763-b89a-3e096fefe4f3")
+	)
+	(fp_line
+		(start 2.8 3.636)
+		(end -2.8 3.636)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "47b5cf5d-308b-4f69-a64f-99e44a84e407")
+	)
+	(fp_line
+		(start -1.8 -1.9)
+		(end 1.8 -1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8b8de893-091b-4a1a-aa2b-94ec798b02a5")
+	)
+	(fp_line
+		(start -1.8 1.9)
+		(end -1.8 -1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0df59127-2dff-4fc8-ad71-e50db54c86b4")
+	)
+	(fp_line
+		(start 1.8 -1.9)
+		(end 1.8 1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b25352c-073a-4ce0-9ccb-61021cfe9064")
+	)
+	(fp_line
+		(start 1.8 1.9)
+		(end -1.8 1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "048fc140-7107-4516-b2e7-571b264ebb05")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.168 0)
+		(layer "F.Fab")
+		(uuid "9fff5090-7857-4c43-9c19-2f6c8534848d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1 1.7 90)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "fd164ee2-5fb7-429e-84bf-13fdbf96e739")
+	)
+	(pad "2" smd roundrect
+		(at 0 -1.55 90)
+		(size 1.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "697fd22c-bc7b-4f04-a756-c4190e93638f")
+	)
+	(pad "3" smd roundrect
+		(at 1 1.7 90)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "2ac067ad-7977-43cf-ab9e-fdda539e4e90")
+	)
+	(embedded_fonts no)
+	(model "TC33X-2-102G.stp"
+		(offset
+			(xyz 0 0 0.279999997)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
