@@ -1,0 +1,103 @@
+(footprint "C_0306_0816Metric_charlie"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor SMD 0508 (1220 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.koaspeer.com/pdfs/WK73S.pdf), generated with kicad-footprint-generator")
+	(tags "resistor handsolder")
+	(property "Reference" "REF**"
+		(at 0.2 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "9cb661fe-631c-4380-a12e-d7b8e767a4bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_0306_0816Metric"
+		(at 0 2.03 0)
+		(layer "F.Fab")
+		(uuid "f2a46cb4-7000-43f6-8214-a8c627675f63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0739de5-3243-4cbd-8af5-d021dee0ed73")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de8a7ee3-35c2-45a1-8b2e-51a2b601c461")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.7 -0.8)
+		(end 0.7 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "11777f4b-ecf2-4562-ae95-bc8487362962")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e9a0bb00-abd1-40d1-8798-2d1ca7e21170")
+		(effects
+			(font
+				(size 0.31 0.31)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.4 0)
+		(size 0.51 1.52)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.222222)
+		(uuid "9aa85cd3-bc6c-4203-917d-627f7ea0de70")
+	)
+	(pad "2" smd roundrect
+		(at 0.4 0)
+		(size 0.51 1.52)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.222222)
+		(uuid "6ad8b981-1476-4db1-a512-d62ab322f8dc")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1.25 4 2)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
