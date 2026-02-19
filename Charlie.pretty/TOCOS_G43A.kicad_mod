@@ -1,0 +1,183 @@
+(footprint "TOCOS_G43A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a1000001-0000-0000-0000-000000000001")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TOCOS_G43A"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a1000002-0000-0000-0000-000000000002")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1000003-0000-0000-0000-000000000003")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "TOCOS G43A SMD Trimmer Potentiometer 5x4.5mm, Reflow Soldering"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1000004-0000-0000-0000-000000000004")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -2.25)
+		(end -2.5 2.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a100000b-0000-0000-0000-00000000000b")
+	)
+	(fp_line
+		(start -2.5 -2.25)
+		(end -1 -2.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a1000008-0000-0000-0000-000000000008")
+	)
+	(fp_line
+		(start -2.5 2.25)
+		(end -2.25 2.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a1000009-0000-0000-0000-000000000009")
+	)
+	(fp_line
+		(start -0.5 2.25)
+		(end 0.5 2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8ad26e3b-c420-480c-8a07-758cf64ddbec")
+	)
+	(fp_line
+		(start 2.25 2.25)
+		(end 2.5 2.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a100000a-0000-0000-0000-00000000000a")
+	)
+	(fp_line
+		(start 2.5 -2.25)
+		(end 1 -2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a1e40293-c21b-4a2c-8ed3-1a88389acccc")
+	)
+	(fp_line
+		(start 2.5 -2.25)
+		(end 2.5 2.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a100000c-0000-0000-0000-00000000000c")
+	)
+	(fp_rect
+		(start -2.8 -3.8)
+		(end 2.8 3.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a1000007-0000-0000-0000-000000000007")
+	)
+	(fp_rect
+		(start -2.5 -2.25)
+		(end 2.5 2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a1000006-0000-0000-0000-000000000006")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a1000005-0000-0000-0000-000000000005")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1.5 2.5)
+		(size 1.2 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "a1000010-0000-0000-0000-000000000010")
+	)
+	(pad "2" smd roundrect
+		(at 0 -2.5)
+		(size 1.2 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "a100000f-0000-0000-0000-00000000000f")
+	)
+	(pad "3" smd roundrect
+		(at -1.5 2.5)
+		(size 1.2 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "a100000e-0000-0000-0000-00000000000e")
+	)
+	(embedded_fonts no)
+)
