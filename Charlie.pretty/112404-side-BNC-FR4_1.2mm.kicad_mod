@@ -1,0 +1,191 @@
+(footprint "112404-side-BNC-FR4_1.2mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "112404-1_2024")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "2f212569-300e-4349-af69-1777498d4fec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "112404-side-BNC-FR4_1.2mm"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f386d782-3120-4c6a-ac2f-558bc772b71d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f963a52b-de88-4c87-b91d-e7917b167ac7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f98914f7-2519-4234-b5da-2cfa756d2885")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0 -6)
+		(end 6 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1aab2a4a-a04b-4ba2-bc4e-626f5559c6c4")
+	)
+	(fp_line
+		(start 0 6)
+		(end 0 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8ffa67ad-9d7c-46eb-b864-7c897db3a66f")
+	)
+	(fp_line
+		(start 6 -6)
+		(end 6 6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ee54627-9418-4dba-b5a7-aeacb71a0e8c")
+	)
+	(fp_line
+		(start 6 6)
+		(end 0 6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d7597087-8710-402b-bbce-25cb5f507aff")
+	)
+	(fp_line
+		(start 0 -5)
+		(end 0 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a2733f13-d138-4f8b-9181-86f466c46f0a")
+	)
+	(fp_line
+		(start 0 5)
+		(end 0 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c56f2878-ec6c-4e07-b600-b88cd059063f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "fa5b74b8-c094-4573-a591-820fd43f60c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 2.75 0)
+		(size 4.5 1.72)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1453488372)
+		(uuid "60703e6d-07f5-4bdc-ac06-5466472e5ae1")
+	)
+	(pad "2" smd roundrect
+		(at 2.5 -4.5)
+		(size 5 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1222222222)
+		(uuid "31b20a10-37a2-4be7-9ff7-91cf59d71fe0")
+	)
+	(pad "2" smd roundrect
+		(at 2.5 4.5)
+		(size 5 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "a987b895-8a92-471d-ad50-a100c052f5f5")
+	)
+	(zone
+		(layer "B.Cu")
+		(uuid "f9a0abd5-4c55-4ac2-bf5d-bb6cba830f98")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 0 -3.8) (xy 0.5 -3.3) (xy 0.5 3.3) (xy 0 3.8) (xy -0.5 3.8) (xy -0.5 -3.8)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "112404.stp"
+		(offset
+			(xyz -13.5 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -45 -180 -0)
+		)
+	)
+)
