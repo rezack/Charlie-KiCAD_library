@@ -2,6 +2,56 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
+  (symbol "AZ431AN-ATRE1" (in_bom yes) (on_board yes)
+    (property "Reference" "IC" (at 29.21 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Value" "AZ431AN-ATRE1" (at 29.21 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Footprint" "SOT96P240X105-3N" (at 29.21 -94.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ431A.pdf" (at 29.21 -194.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "ki_description" "Voltage References Adj Prec Shunt Reg 2.5V to 36V 4.5mV" (at 29.21 -294.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Height" "1.05" (at 29.21 -394.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Part Number" "621-AZ431AN-ATRE1" (at 29.21 -494.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ431AN-ATRE1?qs=eSfX1CQlHqrfix60%252BW9M8g%3D%3D" (at 29.21 -594.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Name" "Diodes Incorporated" (at 29.21 -694.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (property "Manufacturer_Part_Number" "AZ431AN-ATRE1" (at 29.21 -794.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (rectangle
+      (start 5.08 2.54)
+      (end 27.94 -5.08)
+      (stroke (width 0.254) (type default))
+      (fill (type background))
+    )
+    (pin passive line (at 0 0 0) (length 5.08)
+      (name "REF" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -2.54 0) (length 5.08)
+      (name "CATHODE" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 33.02 0 180) (length 5.08)
+      (name "ANODE" (effects (font (size 1.27 1.27))))
+      (number "3" (effects (font (size 1.27 1.27))))
+    )
+  )
 	(symbol "74AHCT123"
 		(pin_names
 			(offset 1.016)
@@ -1150,7 +1200,7 @@
 			)
 		)
 		(property "Value" "Attenuator"
-			(at 0 0 90)
+			(at 0 -4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1203,9 +1253,21 @@
 			)
 		)
 		(symbol "Attenuator_0_1"
+			(polyline
+				(pts
+					(xy -2.54 3.81) (xy 2.54 3.81) (xy 2.54 -3.81) (xy -2.54 -3.81) (xy -2.54 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(rectangle
-				(start -1.016 -2.54)
-				(end 1.016 2.54)
+				(start -1.016 2.54)
+				(end 1.016 -2.54)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1216,8 +1278,32 @@
 			)
 		)
 		(symbol "Attenuator_1_1"
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin passive line
-				(at 0 3.81 270)
+				(at -3.81 0 0)
 				(length 1.27)
 				(name "~"
 					(effects
@@ -1235,7 +1321,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -3.81 90)
+				(at 3.81 0 180)
 				(length 1.27)
 				(name "~"
 					(effects
